@@ -1,0 +1,12 @@
+.currentTemp {
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
+}

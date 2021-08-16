@@ -1,0 +1,53 @@
+main {
+    background-image: linear-gradient(to bottom, rgba(0 , 0 , 0 , 0.2) , rgba(0 , 0 , 0 , 0.75));
+    margin-bottom: -10px;
+    margin-top: -58px;
+
+}
+.main {
+    background-color: #343d4b;
+    padding: 10px 0;
+    background-size: cover;
+    .navbar-main {
+        h1 {
+            font-size: 35px;
+            font-weight: bolder;
+
+            span {
+                font-size: 25px;
+                font-weight: normal;
+            }
+        }
+    }
+}
+.main.cloudy {
+    background-image: url("/src/assets/images/coudy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main.sunny {
+    background-image: url("/src/assets/images/sunny.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main.rainy {
+    background-image: url("/src/assets/images/rainy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main.snowy {
+    background-image: url("/src/assets/images/snowy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main.windy {
+    background-image: url("/src/assets/images/windy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.warningBanner {
+    h2 {
+        font-size: 21px;
+    }
+}

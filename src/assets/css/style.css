@@ -1,0 +1,136 @@
+main {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  margin-bottom: -10px;
+  margin-top: -58px;
+}
+
+.main {
+  background-color: #343d4b;
+  padding: 10px 0;
+  background-size: cover;
+}
+.main .navbar-main h1 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.main .navbar-main h1 span {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.main.cloudy {
+  background-image: url("/src/assets/images/coudy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main.sunny {
+  background-image: url("/src/assets/images/sunny.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main.rainy {
+  background-image: url("/src/assets/images/rainy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main.snowy {
+  background-image: url("/src/assets/images/snowy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main.windy {
+  background-image: url("/src/assets/images/windy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.warningBanner h2 {
+  font-size: 21px;
+}
+
+* {
+  width: 100%;
+  font-family: vazir, "Montserrat", sans-serif;
+}
+* input {
+  width: 100%;
+  height: 51px;
+  border-radius: 27.22pt;
+  background: #ebebeb;
+  border: none;
+  text-align: center;
+}
+* textarea:hover,
+* button :hover,
+* input:hover,
+* textarea:active,
+* button:active,
+* input:active,
+* textarea:focus,
+* button:focus,
+* input:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir-FD-WOL.woff2") format("woff2"), url("../fonts/Vazir-FD-WOL.woff") format("woff"), url("../fonts/Vazir-FD-WOL.ttf") format("truetype");
+}
+.input-group-append {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.input-group-append button {
+  width: 50%;
+  border-radius: 36px;
+  background-color: #f28500;
+  border: none;
+  margin-bottom: 110px;
+}
+.input-group-append button:hover {
+  background-color: #f28500;
+}
+
+.currentTemp img {
+  width: 150px;
+  height: 150px;
+}
+.currentTemp ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.rowWeeklyData ul {
+  list-style: none;
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rowWeeklyData ul li {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.rowWeeklyData ul li img {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 992px) {
+  .currentTemp ul {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

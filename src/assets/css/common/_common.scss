@@ -1,0 +1,24 @@
+* {
+    width: 100%;
+    font-family: vazir, 'Montserrat', sans-serif;
+    input {
+      width: 100%;
+      height: 51px;
+      border-radius: 27.22pt;
+      background: #ebebeb;
+      border: none;
+      text-align: center;
+    }
+    textarea:hover,
+    button :hover,
+    input:hover,
+    textarea:active,
+    button:active,
+    input:active,
+    textarea:focus,
+    button:focus,
+    input:focus {
+      outline: 0 !important;
+      box-shadow: none !important;
+    }
+  }

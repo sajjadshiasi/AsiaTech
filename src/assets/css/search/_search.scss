@@ -1,0 +1,15 @@
+.input-group-append {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button {
+        width: 50%;
+        border-radius: 36px;
+        background-color: #f28500;
+        border: none;
+        margin-bottom: 110px;
+        &:hover {
+            background-color: #f28500;
+        }
+    }
+}
